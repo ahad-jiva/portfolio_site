@@ -19,6 +19,22 @@ h2{
     line-height: 0px;
     margin-top: 10px;
 }
+h5{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+p{
+  margin-top: 0px;
+  margin-left: 100px;
+  font-size: 14px;
+}
+
+.latex{
+  text-align: center;
+  font-size: 14px;
+}
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -54,4 +70,10 @@ h2{
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  .ul{
+    margin-left: 100px;
+    font-size: 14px;
+    list-style-type: square;
   }

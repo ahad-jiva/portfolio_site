@@ -1,0 +1,27 @@
+{
+  "homepage": "http://ahad-jiva.github.io/Q.E.D.",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "name": "mypage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahad-jiva/Q.E.D..git"
+  },
+  "keywords": [
+    "mypage"
+  ],
+  "author": "ahadj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahad-jiva/Q.E.D./issues"
+  },
+  "description": ""
+}

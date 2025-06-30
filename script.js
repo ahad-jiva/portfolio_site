@@ -6,6 +6,9 @@ const themeIcon = themeToggle?.querySelector('i');
 const savedTheme = localStorage.getItem('theme') || 'dark';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
+// Flag to track if theme transition is in progress
+let isThemeTransitioning = false;
+
 // Update icon based on current theme
 function updateThemeIcon() {
     if (themeIcon) {
@@ -22,6 +25,9 @@ function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     
+    // Set flag to prevent parallax interference
+    isThemeTransitioning = true;
+    
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeIcon();
@@ -34,6 +40,17 @@ function toggleTheme() {
     if (hero) {
         hero.style.setProperty('--parallax-offset', '0px');
     }
+    
+    // Re-enable parallax after theme transition completes
+    setTimeout(() => {
+        isThemeTransitioning = false;
+        // Re-apply current scroll position
+        const scrolled = window.pageYOffset;
+        if (hero) {
+            const rate = scrolled * -0.5;
+            hero.style.setProperty('--parallax-offset', `${rate}px`);
+        }
+    }, 300); // Match the CSS transition duration
 }
 
 // Function to update navbar styling based on current theme and scroll position
@@ -258,6 +275,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Add parallax effect to hero background
 window.addEventListener('scroll', () => {
+    // Skip parallax during theme transitions
+    if (isThemeTransitioning) return;
+    
     const scrolled = window.pageYOffset;
     const hero = document.querySelector('.hero');
     if (hero) {

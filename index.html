@@ -5,30 +5,315 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ahadj</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="description" content="Website to show what ive done.">
+    <title>Ahad Jiva - Portfolio</title>
+    <meta name="description" content="Ahad Jiva's professional portfolio showcasing software engineering and mathematical modeling projects">
     <meta name="author" content="Ahad Jiva">
-    <link rel="stylesheet" href="main.css">
-    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<div class="main">
-    <body>
-        <h1>
-            Ahad Jiva
-        </h1>
-        <h5>
-            About:
-        </h5>
-        <p>
-            This is Ahad J's website. Check out the sidebar to find some cool stuff.
-        </p>
-        <div class="sidenav">
-            <a href="index.html">Home</a>
-            <a href="math.html">Projects</a>
-          </div>
-    </body>
-</div>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" id="nav-logo">Ahad Jiva</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Ahad Jiva</span></h1>
+                <p class="hero-subtitle">Applied Mathematician & Computer Scientist</p>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Featured Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-placeholder">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-arrow">
+            <i class="fas fa-chevron-down"></i>
+            <span class="scroll-label">About Me</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an undergraduate student at Cal Poly San Luis Obispo studying applied mathematics and computer science with a strong interest in algorithmic problem-solving, machine learning, and applications of advanced theoretical mathematics to real-world problems. I am fluent in Python, C/C++, and Java, and have experience with libraries such as TensorFlow and PyTorch. I especially enjoy working on projects that combine mathematical modeling with performant software design.
+                    </p>
+                    <p>
+                        I enjoy tackling complex problems and turning them into elegant, efficient solutions. 
+                        Whether it's optimizing matrix multiplication programs or building trading models, 
+                        I approach each project with analytical rigor and creative problem-solving.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Mathematics</h4>
+                            <ul>
+                                <li>Linear Algebra, Calculus & Analysis, ODEs & PDEs</li>
+                                <li>Numerical Analysis, Optimization, Probability & Statistics</li>
+                                <li>Mathematical Modeling, Data Science, Machine Learning</li>
+                                <li>LaTeX, SageMath, MATLAB</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <ul>
+                                <li>C/C++, Python, Java, R</li>
+                                <li>PyTorch, TensorFlow, pandas, numpy, matplotlib, scikit-learn</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools</h4>
+                            <ul>
+                                <li>Git</li>
+                                <li>VSCode, PyCharm, IntelliJ IDEA, CLI</li>
+                                <li>Debugging, Profiling</li>
+                                <li>Linux, Windows, macOS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Parallelized Matrix Multiplier & Determinant Calculator</h3>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">MPI</span>
+                            <span class="tag">Linear Algebra</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        An MPI-based performance-oriented matrix multiplier and determinant calculator written in C.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Bitcoin & Gold Trading Model</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Financial Modeling</span>
+                            <span class="tag">Optimization</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Creating a trading model for Bitcoin and gold that maximizes profit using mathematical optimization.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>MCM 2025 Submission</h3>
+                        <div class="project-tags">
+                            <span class="tag">Mathematical Modeling</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">LaTeX</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Modeling the erosion of ancient stairs with quadric surfaces for the 2025 COMAP Mathematical Competition in Modeling.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-file-alt"></i> View Report</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Spresense TensorFlow Facial Recognition Model</h3>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Neural Networks</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A TensorFlow facial recognition model designed for the Spresense dev board. Submission for the 2025 CPES x Sony Hackathon.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Bitmap Image Manipulation</h3>
+                        <div class="project-tags">
+                            <span class="tag">C/C++</span>
+                            <span class="tag">Image Processing</span>
+                            <span class="tag">Compression</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A collection of parallelized C/C++ programs for manipulating, interpolating, and compressing bitmap images.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>PSW Primality Test</h3>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Number Theory</span>
+                            <span class="tag">Performance Optimization</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A high-performance, unproven primality test that uses the PSW algorithm. Optimized for speed to try and disprove the PSW conjecture.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
 
 
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Numerical Integrator</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Monte Carlo Simulation</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A fast numerical function integrator using Monte Carlo simulation.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Text Similarity with Cosine Similarity</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Linear Algebra</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A Python text embedding model that calculates lexical similarity using cosine similarity.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT TEMPLATE - Copy this block to add new projects -->
+                <!-- <div class="project-card">
+                    <div class="project-header">
+                        <h3>Numerical Integrator</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Monte Carlo Simulation</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A fast numerical function integrator using Monte Carlo simulation.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                    </div>
+                </div> -->
+                <!-- END PROJECT TEMPLATE -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-links">
+                        <a href="mailto:ahadjiva15@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            ahadjiva15@gmail.com
+                        </a>
+                        <a href="https://github.com/ahad-jiva" class="contact-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/ahadjiva" class="contact-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Ahad Jiva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>

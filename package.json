@@ -1,12 +1,25 @@
 {
+  "name": "ahad-jiva-portfolio",
+  "version": "2.0.0",
+  "description": "portfolio",
+  "main": "index.html",
   "homepage": "http://ahad-jiva.github.io/Q.E.D.",
   "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .",
+    "build": "echo 'Static site - no build step required'"
   },
-  "name": "mypage",
-  "version": "1.0.0",
-  "main": "index.js",
+  "keywords": [
+    "portfolio",
+    "software-engineering",
+    "mathematical-modeling",
+    "web-development",
+    "personal-website"
+  ],
+  "author": "Ahad Jiva",
+  "license": "MIT",
   "dependencies": {
     "gh-pages": "^6.3.0"
   },
@@ -15,13 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/ahad-jiva/Q.E.D..git"
   },
-  "keywords": [
-    "mypage"
-  ],
-  "author": "ahadj",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ahad-jiva/Q.E.D./issues"
-  },
-  "description": ""
+  }
 }

@@ -1,3 +1,3 @@
 # Portfolio Website
 
-[link](www.ahadjiva.com)
+[link](http://www.ahadjiva.com/)

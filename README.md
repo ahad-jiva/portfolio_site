@@ -1,3 +1,3 @@
 # Portfolio Website
 
-[link](https://ahad-jiva.github.io/portfolio_site/)
+[link](http://www.ahadjiva.com/)

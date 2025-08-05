@@ -101,9 +101,9 @@ body {
 }
 
 .nav-logo a:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -129,9 +129,9 @@ body {
 }
 
 .nav-link:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -222,18 +222,18 @@ body {
 .highlight {
     color: var(--text-white);
     transition: all 0.4s ease;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .highlight:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -249,9 +249,9 @@ body {
 }
 
 .hero-subtitle:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -290,9 +290,9 @@ body {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     border-color: transparent;
@@ -306,9 +306,9 @@ body {
 }
 
 .btn-secondary:hover {
-    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
     border-color: transparent;
@@ -377,9 +377,9 @@ body {
 
 .scroll-arrow:hover {
     color: rgba(255, 255, 255, 0.9);
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite, bounceArrow 2s ease-in-out infinite;
+    animation: gradientShift 4s linear infinite, bounceArrow 2s ease-in-out infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -409,9 +409,9 @@ body {
 }
 
 .scroll-arrow:hover .scroll-label {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -434,18 +434,18 @@ body {
     margin-bottom: 3rem;
     color: var(--text-white);
     transition: all 0.4s ease, color 0.3s ease;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .section-title:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -602,9 +602,9 @@ body {
     bottom: 0;
     border-radius: 12px;
     padding: 1px;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
@@ -619,9 +619,9 @@ body {
 }
 
 .project-card:hover .project-header h3 {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -691,9 +691,9 @@ body {
 }
 
 .project-link:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -751,9 +751,9 @@ body {
 }
 
 .contact-link:hover {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #ff9ff3, #feca57, #96ceb4, #45b7d1, #4ecdc4, #ff6b6b);
     background-size: 400% 400%;
-    animation: gradientShift 3s linear infinite;
+    animation: gradientShift 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
